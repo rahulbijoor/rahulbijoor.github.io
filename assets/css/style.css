@@ -891,3 +891,70 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+/* ===== Experience Timeline Styling ===== */
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 40px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  background: #6c63ff;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #6c63ff;
+  margin-bottom: 5px;
+}
+
+.timeline-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.timeline-content h6 {
+  font-size: 14px;
+  color: #666;
+}
+
+.timeline-content p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  display: inline-block;
+  background: #6c63ff;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
